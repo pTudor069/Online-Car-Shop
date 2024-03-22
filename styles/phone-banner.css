@@ -1,0 +1,76 @@
+
+.phone-banner {
+  position: absolute;
+}
+
+
+.banner-phone-background {
+  width: 100%;
+}
+
+
+.banner-text h1{
+  position: relative;
+  font-weight: 800;
+  margin-left: 70px;
+  font-size: 40px;
+  top: 100px;
+ }
+
+ .banner-text p{
+  font-size: 15px;
+  position: relative;
+  margin-left: 70px;
+  top: 90px;
+ }
+
+ .buttons-1 {
+  position: relative;
+  background-color: black;
+  font-size: 15px;
+  border: none;
+  font-weight: 400;
+  margin-left: 70px;
+  width: 180px;
+  height: 60px;
+  color: white;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 14px;
+  top: 100px;
+  border-radius: 15px;
+   }
+
+   .buttons-2 {
+    position: relative;
+  background-color: black;
+  font-size: 15px;
+  border: none;
+  font-weight: 400;
+  margin-left: 20px;
+  width: 180px;
+  height: 60px;
+  color: white;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 14px;
+  top: 100px;
+  border-radius: 15px;
+   }
+
+   .buttons-1:hover,
+   .buttons-2:hover {
+    cursor: pointer;
+   }
+
+   .apple-icon {
+    width: 1px;
+   }
+
+   .download-buttons {
+    display: flex;
+   }
+
+

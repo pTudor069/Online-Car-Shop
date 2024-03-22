@@ -1,0 +1,91 @@
+.header-image img {
+  width: 1519px;
+}
+
+.header-image {
+  position: relative;  
+}
+
+.price {
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  top: 350px;
+  left: 70px;
+}
+
+.name {
+  position: absolute;
+  color: white;
+  top: 0;
+  font-weight: 500;
+  font-size: 80px;
+  left: 70px;
+  top: 400px;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.car-statistics-container {
+  position: absolute;
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  top: 500px;
+  left: 70px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.statistics-icon {
+  position: absolute;
+  display: flex;
+  width: 30px;
+}
+
+
+
+.car-statistics-container p {
+  color: white;
+  display: flex;
+  padding-left: 35px;
+}
+
+.middle-side {
+  display: flex;
+  align-items: center;
+}
+
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+
+.learn-more-button {
+  position: absolute;
+  left: 70px;
+  top: 570px;
+  background-color: white;
+  border: none;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  border-radius: 15px;
+  transition: 0.30s;
+}
+
+.learn-more-button:hover {
+  background-color: rgb(65, 65, 255);
+  color: white;
+  cursor: pointer;
+}

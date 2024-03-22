@@ -1,0 +1,103 @@
+.header {
+  height: 100px;
+  display: flex;
+
+  justify-content: space-between;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+ z-index: 100;
+
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: rgb(177, 177, 177);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+.site-logo:hover {
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  margin-left: 700px;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home, 
+.about, 
+.contact {
+  color: white;
+  font-weight: 600;
+}
+
+.home:hover, 
+.about:hover, 
+.contact:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 0;
+}
+
+.sign-in-icon {
+  width: 23px;
+}
+
+.right-section p:hover,
+.sign-in-icon:hover {
+  cursor: pointer;
+}
+
+.right-section p {
+  font-weight: 600;
+}
+
+.submit-listing-button {
+  margin-left: 35px ;
+  margin-right: 80px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  padding: 15px 25px 15px 25px;
+  border-radius: 13px;
+  transition: 0.30s;
+}
+
+.submit-listing-button:hover {
+  background-color: rgb(65, 65, 255);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
